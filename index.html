@@ -11,24 +11,45 @@
             background-color: #191818;
             color: #fff;
             text-align: center;
-            
+
         }
-    ul{
-        list-style-type: none;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;gap: 20px; 
-    } 
-    li{
-        padding: 10px;
-        border-radius: 15px;
-    }
-    a {color: #fff;
-text-decoration: none;
-    }
-    .active {
-        background-color: #020302;
-    }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        li {
+            padding: 10px;
+            border-radius: 15px;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .active {
+            background-color: #020302;
+        }
+        @media screen and (max-width: 640px) {
+            nav {
+                width: 100%;
+            }
+            ul {
+                gap: 1px;
+                justify-content: center;
+            }
+            li {
+                padding: 4px;
+            }
+            h1 {
+                font-size: 20px;
+            }
+        }
     </style>
 </head>
 
