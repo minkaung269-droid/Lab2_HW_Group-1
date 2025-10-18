@@ -11,6 +11,9 @@
             background-color: #191818;
             color: #fff;
             text-align: center;
+            background: url("images/hp\ 3.jpg") no-repeat top center;
+            background-size: 100%;
+            /* filter: brightness(50%);  */
 
         }
 
@@ -34,6 +37,20 @@
 
         .active {
             background-color: #020302;
+        }
+
+        .source-code-btn{
+        
+         background-color: #161616;  
+         padding: 10px; 
+         border-radius: 15px;
+         border: solid 2px #fff;
+         margin-top: 35px;
+
+        }
+        .source-code-btn:hover{
+        background-color: #fff;
+        color: #000;
         }
         @media screen and (max-width: 640px) {
             nav {
@@ -62,10 +79,19 @@
             <li><a href="highschool.html">Highschool</a></li>
         </ul>
     </nav>
-    <h1 style="position: absolute;
+    <div style=" position: absolute;
             left: 50%;
             top: 50%;
-            transform: translate(-50%, -50%);">Welcome to the home page!</h1>
+            transform: translate(-50%, -50%);">
+            <h1 style="color: #fff;
+            text-shadow: -1px -1px 0 #000, -1px 1px 0 #000;
+            ">Welcome to the home page! 
+    </h1>
+            <p style="display: block; margin-bottom: 25px;">
+                This is the HTML assignment written by the Group 1 members. <br>
+                Here, you can browse four diffferent pages: Home, About us, Courses, & Highschool Records.
+            </p>
+            <a class="source-code-btn" href="https://github.com/minkaung269-droid/Lab2_HW_Group-1/tree/main">get the source code </a></div>
 </body>
 
 </html>
